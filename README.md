@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://deloughry.co.uk"><img alt="WEB" src="https://img.shields.io/badge/WEB-deloughry.co.uk-00ff66?style=for-the-badge&labelColor=050505"></a>
-  <a href="https://x.com/dr_dinomight"><img alt="X" src="https://img.shields.io/badge/X-dr__dinomight-f2f2f2?style=for-the-badge&labelColor=050505"></a>
-  <a href="https://bsky.app/profile/matt.deloughry.co.uk"><img alt="BLUESKY" src="https://img.shields.io/badge/BLUESKY-matt.deloughry.co.uk-00d9ff?style=for-the-badge&labelColor=050505"></a>
+  <a href="https://deloughry.co.uk"><img alt="WEB" src="https://img.shields.io/badge/WEB-deloughry.co.uk-0b3d1f?style=for-the-badge&labelColor=050505"></a>
+  <a href="https://x.com/dr_dinomight"><img alt="X" src="https://img.shields.io/badge/X-dr__dinomight-1a1a1a?style=for-the-badge&labelColor=050505"></a>
+  <a href="https://bsky.app/profile/matt.deloughry.co.uk"><img alt="BLUESKY" src="https://img.shields.io/badge/BLUESKY-matt.deloughry.co.uk-073642?style=for-the-badge&labelColor=050505"></a>
 </p>
 
 ```text
