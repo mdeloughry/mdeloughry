@@ -1,0 +1,57 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">MPD terminal profile banner</title>
+  <desc id="desc">A dark terminal-inspired banner for Matthew Peck-Deloughry with neon green, cyan, and magenta glitch styling.</desc>
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00ff66" stop-opacity="0.22"/>
+      <stop offset="0.45" stop-color="#00d9ff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ff2bd6" stop-opacity="0.18"/>
+    </linearGradient>
+    <pattern id="scanlines" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="1" fill="#ffffff" opacity="0.08"/>
+    </pattern>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" fill="#050505"/>
+  <rect width="1200" height="360" fill="url(#glow)"/>
+  <rect width="1200" height="360" fill="url(#scanlines)" opacity="0.7"/>
+
+  <path d="M0 42H1200" stroke="#ffffff" stroke-opacity="0.1"/>
+  <path d="M0 318H1200" stroke="#ffffff" stroke-opacity="0.1"/>
+  <path d="M86 0V360" stroke="#ffffff" stroke-opacity="0.08"/>
+  <path d="M1114 0V360" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <circle cx="28" cy="22" r="6" fill="#ff3b5c"/>
+  <circle cx="50" cy="22" r="6" fill="#ffd166"/>
+  <circle cx="72" cy="22" r="6" fill="#00ff66"/>
+  <text x="104" y="28" fill="#8a8a8a" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="15">PROFILE TERMINAL // deloughry.co.uk</text>
+
+  <g filter="url(#softGlow)">
+    <text x="118" y="166" fill="#ff2bd6" opacity="0.65" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="92" font-weight="800" letter-spacing="2">MPD_</text>
+    <text x="112" y="160" fill="#00d9ff" opacity="0.72" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="92" font-weight="800" letter-spacing="2">MPD_</text>
+    <text x="115" y="163" fill="#00ff66" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="92" font-weight="800" letter-spacing="2">MPD_</text>
+  </g>
+
+  <text x="122" y="216" fill="#f2f2f2" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="24">software engineer // tinkerer // field notes</text>
+  <text x="122" y="252" fill="#8a8a8a" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="18">small tools, self-hosted systems, web experiments, music utilities</text>
+
+  <g font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="16">
+    <text x="778" y="116" fill="#00ff66">&gt; SYS_OK</text>
+    <text x="778" y="148" fill="#00d9ff">&gt; BUILT_WITH: Astro + Tailwind + AI</text>
+    <text x="778" y="180" fill="#ffd166">&gt; HOSTED_ON: Hetzner + Coolify</text>
+    <text x="778" y="212" fill="#ff2bd6">&gt; WEB: deloughry.co.uk</text>
+  </g>
+
+  <rect x="776" y="238" width="282" height="42" fill="#000000" fill-opacity="0.42" stroke="#00ff66" stroke-opacity="0.4"/>
+  <text x="794" y="265" fill="#00ff66" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="16">KEEP_THE_WEB_WEIRD</text>
+
+  <text x="24" y="344" fill="#6f6f6f" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="13">ERR_NONE // messy little corner of the internet // cursor: blinking</text>
+  <text x="1032" y="344" fill="#6f6f6f" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="13">UTC+01 // 2026</text>
+</svg>
