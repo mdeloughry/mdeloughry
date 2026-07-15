@@ -34,7 +34,8 @@
   </g>
 
   <text x="122" y="216" fill="#f2f2f2" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="24">software engineer // tinkerer // field notes</text>
-  <text x="122" y="252" fill="#8a8a8a" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="18">small tools, self-hosted systems, web experiments, music utilities</text>
+  <text x="122" y="250" fill="#8a8a8a" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="17">small tools // self-hosted systems</text>
+  <text x="122" y="278" fill="#6f6f6f" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="16">web experiments // music utilities</text>
 
   <g font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="16">
     <text x="778" y="116" fill="#00ff66">&gt; SYS_OK</text>
