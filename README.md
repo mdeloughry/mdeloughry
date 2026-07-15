@@ -4,8 +4,8 @@
 
 <p align="center">
   <a href="https://deloughry.co.uk"><img alt="WEB" src="https://img.shields.io/badge/WEB-deloughry.co.uk-00ff66?style=for-the-badge&labelColor=050505"></a>
+  <a href="https://x.com/dr_dinomight"><img alt="X" src="https://img.shields.io/badge/X-dr__dinomight-f2f2f2?style=for-the-badge&labelColor=050505"></a>
   <a href="https://bsky.app/profile/matt.deloughry.co.uk"><img alt="BLUESKY" src="https://img.shields.io/badge/BLUESKY-matt.deloughry.co.uk-00d9ff?style=for-the-badge&labelColor=050505"></a>
-  <a href="https://phpc.social/@DrDinoMight"><img alt="MASTODON" src="https://img.shields.io/badge/MASTODON-DrDinoMight-ff2bd6?style=for-the-badge&labelColor=050505"></a>
 </p>
 
 ```text
@@ -42,6 +42,6 @@ I write at [deloughry.co.uk](https://deloughry.co.uk), mostly about code, tools,
 ```text
 GITHUB=https://github.com/mdeloughry
 WEB=https://deloughry.co.uk
+X=https://x.com/dr_dinomight
 BLUESKY=https://bsky.app/profile/matt.deloughry.co.uk
-MASTODON=https://phpc.social/@DrDinoMight
 ```

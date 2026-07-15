@@ -10,13 +10,6 @@
     <pattern id="scanlines" width="6" height="6" patternUnits="userSpaceOnUse">
       <rect width="6" height="1" fill="#ffffff" opacity="0.08"/>
     </pattern>
-    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
   <rect width="1200" height="360" fill="#050505"/>
@@ -33,10 +26,11 @@
   <circle cx="72" cy="22" r="6" fill="#00ff66"/>
   <text x="104" y="28" fill="#8a8a8a" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="15">PROFILE TERMINAL // deloughry.co.uk</text>
 
-  <g filter="url(#softGlow)">
-    <text x="118" y="166" fill="#ff2bd6" opacity="0.65" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="92" font-weight="800" letter-spacing="2">MPD_</text>
-    <text x="112" y="160" fill="#00d9ff" opacity="0.72" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="92" font-weight="800" letter-spacing="2">MPD_</text>
-    <text x="115" y="163" fill="#00ff66" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="92" font-weight="800" letter-spacing="2">MPD_</text>
+  <g font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="88" font-weight="800" letter-spacing="2">
+    <text x="116" y="163" fill="#00ff66" stroke="#020202" stroke-width="3" paint-order="stroke">MPD_</text>
+    <rect x="119" y="89" width="176" height="6" fill="#00d9ff" opacity="0.58"/>
+    <rect x="168" y="174" width="134" height="5" fill="#ff2bd6" opacity="0.56"/>
+    <rect x="111" y="183" width="96" height="4" fill="#00ff66" opacity="0.72"/>
   </g>
 
   <text x="122" y="216" fill="#f2f2f2" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="24">software engineer // tinkerer // field notes</text>
