@@ -30,6 +30,7 @@ MOTTO          keep the web weird, inspectable, and mine
 
 | repo | signal |
 | --- | --- |
+| [i-have-dyslexia](https://github.com/mdeloughry/i-have-dyslexia) | Dyslexia-friendly output from any AI coding agent. |
 | [farward](https://github.com/mdeloughry/farward) | Interactive SSH port-forwarding dashboard for remote Docker and standalone services. |
 | [page-xerox](https://github.com/mdeloughry/page-xerox) | Generate AI-ready Markdown from HTML pages at build time or through SSR middleware. |
 | [spillover](https://github.com/mdeloughry/spillover) | Search, match, and save tracks to Spotify from links, playlists, or text lists across music platforms. |
